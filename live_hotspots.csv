@@ -1,0 +1,28 @@
+latitude,longitude,acq_date,acq_time,frp,confidence,satellite,note,region
+21.166,72.693,2026-09-08,0745,520.8,high,VIIRS-SNPP,"Hazira Petrochemical Storage Depot (Surat, India)",INDIA
+22.3072,73.1812,2026-09-08,0630,115.4,high,VIIRS-SNPP,"Vadodara Industrial Corridor (Gujarat, India)",INDIA
+22.4707,70.0577,2026-09-08,0810,85.2,high,VIIRS-SNPP,"Jamnagar Mega Refining Complex (Gujarat, India)",INDIA
+21.6264,73.0152,2026-09-08,0915,14.2,nominal,VIIRS-SNPP,Ankleshwar GIDC Chemical Cluster (India),INDIA
+19.006,72.903,2026-09-08,1630,28.5,nominal,VIIRS-SNPP,"Trombay Refinery & Chemical Hub (Mumbai, India)",INDIA
+13.161,80.2975,2026-09-08,1420,44.8,nominal,VIIRS-SNPP,"Manali Petrochemical Zone (Chennai, India)",INDIA
+24.5854,75.48,2026-09-08,1215,25.4,nominal,VIIRS-SNPP,Rajasthan Agricultural Burn (India),INDIA
+37.5,22.37,2026-09-08,1040,310.5,high,NOAA-20,Peloponnese Major Fire Front (Greece),EUROPE
+37.3891,-5.9845,2026-09-08,1120,180.2,high,NOAA-20,Andalucia Thermal Corridor (Spain),EUROPE
+37.751,14.9934,2026-09-08,1310,120.0,nominal,Sentinel-3,"Catania Industrial Basin (Sicily, Italy)",EUROPE
+43.437,4.885,2026-09-08,0950,65.4,nominal,Sentinel-3,"Fos-sur-Mer Petrochem Hub (Rhone, France)",EUROPE
+48.0159,37.8029,2026-09-08,1430,420.0,high,VIIRS-SNPP,Donbas Industrial Complex (Ukraine),EUROPE
+51.95,4.13,2026-09-08,0830,45.2,nominal,Sentinel-3,Rotterdam Europoort Refining Cluster (Netherlands),EUROPE
+46.6021,-120.5059,2026-09-08,0315,185.0,high,VIIRS-SNPP,"Yakima Valley Wildland-Urban Interface (WA, USA)",NORTH_AMERICA
+29.74,-95.12,2026-09-08,0520,290.0,high,NOAA-20,"Houston Ship Channel Chemical Complex (TX, USA)",NORTH_AMERICA
+29.87,-93.93,2026-09-08,0440,110.0,high,NOAA-20,"Port Arthur Mega Refining Terminal (TX, USA)",NORTH_AMERICA
+37.9358,-122.3477,2026-09-08,0210,48.0,nominal,VIIRS-SNPP,"Richmond Refinery Complex (CA, USA)",NORTH_AMERICA
+56.7264,-111.3803,2026-09-08,0130,175.0,high,VIIRS-SNPP,"Fort McMurray Oil Sands Terminal (Alberta, Canada)",NORTH_AMERICA
+26.64,50.16,2026-09-08,1200,215.0,high,NOAA-21,Ras Tanura Mega Oil Terminal (Saudi Arabia),MIDDLE_EAST
+27.005,49.658,2026-09-08,1215,145.0,high,NOAA-21,Jubail Industrial City Petrochem (Saudi Arabia),MIDDLE_EAST
+30.5081,47.7835,2026-09-08,1340,380.0,high,VIIRS-SNPP,Basra Petroleum Extraction Hub (Iraq),MIDDLE_EAST
+24.11,52.73,2026-09-08,1410,88.0,nominal,NOAA-20,"Ruwais Refining & Chemical Hub (Abu Dhabi, UAE)",MIDDLE_EAST
+25.9,51.53,2026-09-08,1500,160.0,high,NOAA-20,Ras Laffan LNG Production Complex (Qatar),MIDDLE_EAST
+-20.65,116.7,2026-09-08,1820,75.0,nominal,VIIRS-SNPP,"Pilbara Gas Processing Terminal (WA, Australia)",AUSTRALIA
+-33.715,150.3114,2026-09-08,1940,240.0,high,VIIRS-SNPP,"Blue Mountains Bushfire Front (NSW, Australia)",AUSTRALIA
+4.85,6.9,2026-09-08,1710,310.0,high,NOAA-20,"Niger Delta Flare Corridor (Port Harcourt, Nigeria)",AFRICA
+-23.95,-46.33,2026-09-08,2015,92.0,nominal,VIIRS-SNPP,Santos Basin Petrochem Terminal (Brazil),SOUTH_AMERICA

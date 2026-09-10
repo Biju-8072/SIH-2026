@@ -1,0 +1,102 @@
+{
+    "elements": [
+        {
+            "id": "IND-GJ-001",
+            "name": "Gujarat Petrochemical & Refinery Complex (Vadodara)",
+            "type": "petrochemical_refinery",
+            "lat": 22.308,
+            "lon": 73.182,
+            "safe_radius_km": 4.0,
+            "has_flare_stacks": true,
+            "expected_baseline_frp_mw": [
+                15.0,
+                140.0
+            ],
+            "state": "Gujarat"
+        },
+        {
+            "id": "IND-GJ-002",
+            "name": "Hazira Industrial & Chemical Manufacturing Belt (Surat)",
+            "type": "heavy_chemical",
+            "lat": 21.166,
+            "lon": 72.693,
+            "safe_radius_km": 3.5,
+            "has_flare_stacks": true,
+            "expected_baseline_frp_mw": [
+                10.0,
+                90.0
+            ],
+            "state": "Gujarat"
+        },
+        {
+            "id": "IND-GJ-003",
+            "name": "Jamnagar Mega Petroleum Refining Hub",
+            "type": "oil_refinery",
+            "lat": 22.472,
+            "lon": 70.059,
+            "safe_radius_km": 5.0,
+            "has_flare_stacks": true,
+            "expected_baseline_frp_mw": [
+                25.0,
+                150.0
+            ],
+            "state": "Gujarat"
+        },
+        {
+            "id": "IND-GJ-004",
+            "name": "Ankleshwar GIDC Chemical & Pharmaceutical Estate",
+            "type": "chemical_manufacturing",
+            "lat": 21.6264,
+            "lon": 73.0152,
+            "safe_radius_km": 3.0,
+            "has_flare_stacks": false,
+            "expected_baseline_frp_mw": [
+                0.0,
+                15.0
+            ],
+            "state": "Gujarat"
+        },
+        {
+            "id": "IND-TN-001",
+            "name": "Manali Industrial Petrochem Complex (Chennai)",
+            "type": "petrochemical_refinery",
+            "lat": 13.1625,
+            "lon": 80.299,
+            "safe_radius_km": 3.5,
+            "has_flare_stacks": true,
+            "expected_baseline_frp_mw": [
+                10.0,
+                80.0
+            ],
+            "state": "Tamil Nadu"
+        },
+        {
+            "id": "IND-MH-001",
+            "name": "Trombay Refinery & Fertilizer Complex (Mumbai)",
+            "type": "refinery_fertilizer",
+            "lat": 19.006,
+            "lon": 72.903,
+            "safe_radius_km": 3.0,
+            "has_flare_stacks": true,
+            "expected_baseline_frp_mw": [
+                10.0,
+                75.0
+            ],
+            "state": "Maharashtra"
+        },
+        {
+            "id": "IND-WB-001",
+            "name": "Haldia Petrochemicals & Port Industrial Estate",
+            "type": "petrochemical",
+            "lat": 22.062,
+            "lon": 88.085,
+            "safe_radius_km": 3.5,
+            "has_flare_stacks": true,
+            "expected_baseline_frp_mw": [
+                15.0,
+                110.0
+            ],
+            "state": "West Bengal"
+        }
+    ]
+}

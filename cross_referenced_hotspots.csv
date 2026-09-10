@@ -1,0 +1,28 @@
+latitude,longitude,frp,confidence,acq_date,acq_time,in_industrial_zone,facility_id,facility_name,distance_km,safe_radius_km,has_flare_stacks,expected_baseline_min_mw,expected_baseline_max_mw
+21.166,72.693,520.8,high,2026-09-08,745,True,IND-GJ-002,Hazira Industrial & Chemical Manufacturing Belt (Surat),0.0,3.5,True,10.0,90.0
+22.3072,73.1812,115.4,high,2026-09-08,630,True,IND-GJ-001,Gujarat Petrochemical & Refinery Complex (Vadodara),0.12,4.0,True,15.0,140.0
+22.4707,70.0577,85.2,high,2026-09-08,810,True,IND-GJ-003,Jamnagar Mega Petroleum Refining Hub,0.2,5.0,True,25.0,150.0
+21.6264,73.0152,14.2,nominal,2026-09-08,915,True,IND-GJ-004,Ankleshwar GIDC Chemical & Pharmaceutical Estate,0.0,3.0,False,0.0,15.0
+19.006,72.903,28.5,nominal,2026-09-08,1630,True,IND-MH-001,Trombay Refinery & Fertilizer Complex (Mumbai),0.0,3.0,True,10.0,75.0
+13.161,80.2975,44.8,nominal,2026-09-08,1420,True,IND-TN-001,Manali Industrial Petrochem Complex (Chennai),0.23,3.5,True,10.0,80.0
+24.5854,75.48,25.4,nominal,2026-09-08,1215,False,N/A,None / Non-Industrial Land,345.07,4.0,False,0.0,0.0
+37.5,22.37,310.5,high,2026-09-08,1040,False,N/A,None / Non-Industrial Land,4829.47,5.0,False,0.0,0.0
+37.3891,-5.9845,180.2,high,2026-09-08,1120,False,N/A,None / Non-Industrial Land,7321.83,5.0,False,0.0,0.0
+37.751,14.9934,120.0,nominal,2026-09-08,1310,False,N/A,None / Non-Industrial Land,5479.32,5.0,False,0.0,0.0
+43.437,4.885,65.4,nominal,2026-09-08,950,False,N/A,None / Non-Industrial Land,6338.92,5.0,False,0.0,0.0
+48.0159,37.8029,420.0,high,2026-09-08,1430,False,N/A,None / Non-Industrial Land,4026.34,5.0,False,0.0,0.0
+51.95,4.13,45.2,nominal,2026-09-08,830,False,N/A,None / Non-Industrial Land,6423.89,5.0,False,0.0,0.0
+46.6021,-120.5059,185.0,high,2026-09-08,315,False,N/A,None / Non-Industrial Land,11856.71,3.5,False,0.0,0.0
+29.74,-95.12,290.0,high,2026-09-08,520,False,N/A,None / Non-Industrial Land,13996.88,5.0,False,0.0,0.0
+29.87,-93.93,110.0,high,2026-09-08,440,False,N/A,None / Non-Industrial Land,13948.39,5.0,False,0.0,0.0
+37.9358,-122.3477,48.0,nominal,2026-09-08,210,False,N/A,None / Non-Industrial Land,12624.64,3.5,False,0.0,0.0
+56.7264,-111.3803,175.0,high,2026-09-08,130,False,N/A,None / Non-Industrial Land,11065.98,3.5,False,0.0,0.0
+26.64,50.16,215.0,high,2026-09-08,1200,False,N/A,None / Non-Industrial Land,2062.79,5.0,False,0.0,0.0
+27.005,49.658,145.0,high,2026-09-08,1215,False,N/A,None / Non-Industrial Land,2118.33,5.0,False,0.0,0.0
+30.5081,47.7835,380.0,high,2026-09-08,1340,False,N/A,None / Non-Industrial Land,2384.63,5.0,False,0.0,0.0
+24.11,52.73,88.0,nominal,2026-09-08,1410,False,N/A,None / Non-Industrial Land,1778.07,5.0,False,0.0,0.0
+25.9,51.53,160.0,high,2026-09-08,1500,False,N/A,None / Non-Industrial Land,1915.94,5.0,False,0.0,0.0
+-20.65,116.7,75.0,nominal,2026-09-08,1820,False,N/A,None / Non-Industrial Land,5473.66,3.5,False,0.0,0.0
+-33.715,150.3114,240.0,high,2026-09-08,1940,False,N/A,None / Non-Industrial Land,9043.52,3.5,False,0.0,0.0
+4.85,6.9,310.0,high,2026-09-08,1710,False,N/A,None / Non-Industrial Land,7047.66,5.0,False,0.0,0.0
+-23.95,-46.33,92.0,nominal,2026-09-08,2015,False,N/A,None / Non-Industrial Land,13570.25,5.0,False,0.0,0.0
