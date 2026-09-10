@@ -3728,18 +3728,19 @@ let dashFocusCircle = null;
 if (document.getElementById('dashCommandMap')) {{
   dashCommandMap = L.map('dashCommandMap', {{ maxZoom: 22 }}).setView([21.8, 73.0], 8);
 
-  // 1. High-Resolution ESRI World Satellite Imagery (Rock-solid, crisp, never blank)
-  const esriSatDash = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{{z}}/{{y}}/{{x}}', {{
-    maxZoom: 22,
-    maxNativeZoom: 18,
-    attribution: '© Esri Satellite'
-  }}).addTo(dashCommandMap);
-
-  // 2. Google Hybrid Satellite with Road & Landmark Labels
-  const googleHybridDash = L.tileLayer('https://mt1.google.com/vt/lyrs=y&x={{x}}&y={{y}}&z={{z}}', {{
+  // 1. Real-Time Google Maps Hybrid Satellite (Live satellite imagery with roads & labels)
+  const googleHybridDash = L.tileLayer('https://{{s}}.google.com/vt/lyrs=y&x={{x}}&y={{y}}&z={{z}}', {{
     maxZoom: 22,
     maxNativeZoom: 20,
-    subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+    subdomains: googleSubdomains,
+    attribution: '© Google Maps'
+  }}).addTo(dashCommandMap);
+
+  // 2. Real-Time Google Maps Streets
+  const googleStreetsDash = L.tileLayer('https://{{s}}.google.com/vt/lyrs=m&x={{x}}&y={{y}}&z={{z}}', {{
+    maxZoom: 22,
+    maxNativeZoom: 20,
+    subdomains: googleSubdomains,
     attribution: '© Google Maps'
   }});
 
@@ -3758,8 +3759,8 @@ if (document.getElementById('dashCommandMap')) {{
   }});
 
   L.control.layers({{
-    "<span style='color:#00e5a0; font-weight:bold;'>🌍 High-Res Satellite (ESRI)</span>": esriSatDash,
-    "<span style='color:#38bdf8; font-weight:bold;'>🛰️ Google Hybrid</span>": googleHybridDash,
+    "<span style='color:#38bdf8; font-weight:bold;'>🛰️ Real-Time Google Maps (Hybrid)</span>": googleHybridDash,
+    "<span style='color:#00e5a0;'>🗺️ Google Maps (Streets)</span>": googleStreetsDash,
     "<span style='color:#cbd5e1;'>🗺️ Tactical Dark</span>": cartoDarkDash,
     "<span style='color:#f59e0b;'>📍 OpenStreetMap Roads</span>": osmRoadsDash
   }}, null, {{ position: 'topright' }}).addTo(dashCommandMap);
@@ -3804,18 +3805,12 @@ L.control.layers({{
 // 2. Real-Time Resource Allocation Satellite Map (SCREEN 2)
 const satelliteMap = L.map('satelliteMap', {{ maxZoom: 22 }}).setView([21.8, 73.0], 8);
 
-const esriSatRes = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{{z}}/{{y}}/{{x}}', {{
-  maxZoom: 22,
-  maxNativeZoom: 18,
-  attribution: '© Esri Satellite'
-}}).addTo(satelliteMap);
-
-const googleHybridSat = L.tileLayer('https://mt1.google.com/vt/lyrs=y&x={{x}}&y={{y}}&z={{z}}', {{
+const googleHybridSat = L.tileLayer('https://{{s}}.google.com/vt/lyrs=y&x={{x}}&y={{y}}&z={{z}}', {{
   maxZoom: 22,
   maxNativeZoom: 20,
-  subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+  subdomains: googleSubdomains,
   attribution: '© Google Maps'
-}});
+}}).addTo(satelliteMap);
 
 const googleStreetsSat = L.tileLayer('https://{{s}}.google.com/vt/lyrs=m&x={{x}}&y={{y}}&z={{z}}', {{
   maxZoom: 22,
@@ -3836,8 +3831,7 @@ const cartoDarkSat = L.tileLayer('https://{{s}}.basemaps.cartocdn.com/dark_all/{
 }});
 
 L.control.layers({{
-  "<span style='color:#00e5a0; font-weight:bold;'>🌍 High-Res Satellite (ESRI)</span>": esriSatRes,
-  "<span style='color:#38bdf8; font-weight:bold;'>🛰️ Google Hybrid</span>": googleHybridSat,
+  "<span style='color:#38bdf8; font-weight:bold;'>🛰️ Real-Time Google Maps (Hybrid)</span>": googleHybridSat,
   "<span style='color:#cbd5e1;'>Google Streets (Roads)</span>": googleStreetsSat,
   "<span style='color:#cbd5e1;'>Google Terrain</span>": googleTerrainSat,
   "<span style='color:#cbd5e1;'>Tactical Dark</span>": cartoDarkSat
